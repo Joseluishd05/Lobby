@@ -1,0 +1,24 @@
+name: Return Lobby
+main: jose\lobby\lobby
+author: Jose
+version: 1.5.5
+api: [1.0.0, 2.0.0]
+commands:
+    back:
+        usage: /back
+        description: regreso al lobby
+    lobby:
+        usage: /lobby
+        description: regreso al lobby
+    hub:
+        usage: /hub
+        description: regreso a lobby
+    spawn:
+        usage: /spawn
+        description: regreso a lobby
+    home:
+        usage: /home
+        description: regreso a lobby	
+    exit:
+        usage: /exit
+        description: regreso a lobby

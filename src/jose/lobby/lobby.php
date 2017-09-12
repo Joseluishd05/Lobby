@@ -22,7 +22,7 @@ public $prefix = TE::GRAY."[".TE::GREEN."LOBBY".TE::GRAY."]";
 		 
         }
         
-	public function onCommand(CommandSender $player, Command $cmd, $label, array $args) {
+	public function onCommand(CommandSender $player, Command $cmd, String $label, array $args) {
         switch($cmd->getName()){                
                         case "back":
                             if(empty($args[0]))
